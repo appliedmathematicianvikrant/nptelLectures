@@ -1,0 +1,60 @@
+                 
+                 
+                                                                     Introduction to DBMS_1
+   An architecture of database system
+                 
+Physical level : describes how  a record is stored
+Logicallevel: describes data stored in database and the relationship among the data
+View level: application program tries to bview the data
+it hide details of data type
+Example: when a stuident see university database a student not be able to see a instructor's salary or the grades so these details are hide
+
+Schema: 
+Logical schema:  The way in which data is organized. It is a plan
+Example name , ID  needs to be present for a customer is customer schema.
+account, interestrate comes in account schema
+
+Instance:  the actual content of the databse at a particular point of time.
+analogous to the value of a varaible
+
+Physical data independence:  the ability to modify the physiocal schem without chaning the logical schema.
+
+Datamodels:
+A collection of tools for desxcribing the data
+1.Data
+2. Data relationships
+3. Data constraints
+
+
+most widely used is Relational model focus in this course
+For database design Entity relationship data model is good choice
+
+Objects based data base models
+Semistructured data model
+
+DDL : Data definition language
+part of the language used toi define the schema
+create table  for example
+
+DDL compiler gerates a set of table stored in data dictionary
+data dictionary contains metadata
+
+
+DML :  accessing and manipulation
+update  also called query klanguage
+
+Two classes of languiage
+1. Relational algebra
+tuple
+2.Commerical
+SQL is most used commerical language
+
+It is not a turing machijne equivalent language
+not everything can be done in this language
+
+Logical design:  
+Buisaness decision: what atrributes should we choose in the relation
+Computer science deciosn:  
+
+Physical design: 
+
